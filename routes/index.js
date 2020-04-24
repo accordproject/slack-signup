@@ -53,7 +53,7 @@ router.post('/invite', function(req, res) {
 
             res.render('result', {
               community: config.community,
-              message: 'Failed! ' + error,
+              message: 'Thank you for signing up, please fill in the <a href="https://join.slack.com/t/accord-project/shared_invite/zt-dmkl6vhc-oD9jXeIZpPSeXw1BXnlGJg">Slack form</a>',
               isFailed: true
             });
           }
