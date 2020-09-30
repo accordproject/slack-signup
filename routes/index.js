@@ -34,7 +34,7 @@ router.post('/invite', function(req, res) {
           if (body.ok) {
             res.render('result', {
               community: config.community,
-              message: 'Thank you for signing up, please fill in the <a href="https://join.slack.com/t/accord-project/shared_invite/zt-dmkl6vhc-oD9jXeIZpPSeXw1BXnlGJg">Slack form</a>',
+              message: 'Thank you for signing up, please fill in the <a href="https://join.slack.com/t/accord-project/shared_invite/zt-hej4q3ps-I1G2uSfKUhDMvcFKRggXGw">Slack form</a>',
               //message: 'Success! Check &ldquo;'+ req.body.email +'&rdquo; for an invite from Slack.'
             });
           } else {
@@ -54,7 +54,7 @@ router.post('/invite', function(req, res) {
 
             res.render('result', {
               community: config.community,
-              message: 'Thank you for signing up, please fill in the <a href="https://join.slack.com/t/accord-project/shared_invite/zt-dmkl6vhc-oD9jXeIZpPSeXw1BXnlGJg">Slack form</a>',
+              message: 'Thank you for signing up, please fill in the <a href="https://join.slack.com/t/accord-project/shared_invite/zt-hej4q3ps-I1G2uSfKUhDMvcFKRggXGw">Slack form</a>',
               isFailed: true
             });
           }
